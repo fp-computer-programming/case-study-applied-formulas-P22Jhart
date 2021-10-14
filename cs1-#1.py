@@ -1,18 +1,8 @@
+# Author: JH 10/12/21
+x1 = input("enter x1 cordinate:")
+y1 = input("enter y1 cordinate:")
+x2 = input("enter x2 cordinate:")
+y2 = input("enter y2 cordinate:")
 
-
-
-x1=input("input x cord")
-x1=float(x1)
-
-y1=input("input y cord")
-y1=float(y1)
-
-x2=input("input x cord")
-x2=float(x2)
-
-y2=input("input x cord")
-y2=float(y2)
-
-a=input 
-
-print(a)
+distance =  (((int(x2) - int(x1)) ** 2) + ((int(y2) - int(y1)) ** 2) ** 1/2)
+print(distance)
